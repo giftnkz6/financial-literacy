@@ -5,7 +5,9 @@
 }
 
 body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    background-color: lightblue;
 }
 h1{
     font-size: 4rem;
@@ -22,4 +24,40 @@ button{
 }
 button:hover{
     width: 18rem;
+}
+.registration{
+    width: 800px;
+    height: 400px;
+    box-shadow: 0.5px 0.5px 2px grey;
+    margin: auto;
+    margin-top: 5rem;
+}
+#form{
+    width: 35rem;
+    box-shadow: 0 0px 25px #fbb13c;
+    /* background-color: white; */
+    margin-bottom: 2rem;
+}
+.form-floating #floatingTextarea{
+    height: 12rem
+}
+address{
+    color: white;
+    font-size: larger;
+}
+#contact{
+    margin-top: 1rem;
+    
+}
+.btn{
+    background-color: white;
+    color: black;
+    /* width: 5rem; */
+}
+
+@media screen and (width <= 410px) {
+    .btn{
+        width: 6rem;
+    }
+    
 }
